@@ -1,0 +1,21 @@
+newmtl floor_txt
+  illum 2
+  Kd 0.2 0.2 0.2
+  Ns 1
+
+newmtl obj01
+  illum 2
+  Kd 0.48 0.192 0.192
+  Ks 0.8 0.8 0.8
+  Ns 198
+
+newmtl obj02
+  illum 2
+  Kd 0.192 0.48 0.192
+  Ks 0.8 0.8 0.8
+  Ns 798
+
+newmtl pointlight
+  illum 2
+  Ke 100 100 100
+  Ns 1

@@ -1,0 +1,74 @@
+newmtl floor_txt
+  illum 2
+  Kd 0.2 0.2 0.2
+  Ns 1
+
+newmtl mat000
+  illum 2
+  Kd 0.608615 0.680257 0.687722
+  Ns 1
+
+newmtl mat001
+  illum 2
+  Kd 0.701966 0.785166 0.692466
+  Ns 1
+
+newmtl mat002
+  illum 2
+  Kd 0.953564 0.723342 0.751466
+  Ks 0.04 0.04 0.04
+  Ns 3163.34
+
+newmtl mat003
+  illum 2
+  Kd 0.633635 0.849251 0.573976
+  Ks 0.04 0.04 0.04
+  Ns 4164.64
+
+newmtl mat004
+  illum 2
+  Kd 0.611886 0.523715 0.725712
+  Ks 0.04 0.04 0.04
+  Ns 2728.5
+
+newmtl mat005
+  illum 2
+  Kd 0.707766 0.975899 0.816008
+  Ns 1
+
+newmtl mat006
+  illum 2
+  Kd 0.867546 0.902404 0.853728
+  Ns 1
+
+newmtl mat007
+  illum 2
+  Kd 0.932635 0.804507 0.671818
+  Ns 1
+
+newmtl mat008
+  illum 2
+  Kd 0.526319 0.509938 0.819831
+  Ks 0.04 0.04 0.04
+  Ns 4607.25
+
+newmtl mat009
+  illum 2
+  Kd 0.521885 0.527444 0.529547
+  Ks 0.04 0.04 0.04
+  Ns 2312.73
+
+newmtl pointlight01
+  illum 2
+  Ke 2000 2000 2000
+  Ns 1
+
+newmtl pointlight02
+  illum 2
+  Ke 1000 1000 1000
+  Ns 1
+
+newmtl pointlight03
+  illum 2
+  Ke 1000 1000 1000
+  Ns 1

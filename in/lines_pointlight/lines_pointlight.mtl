@@ -1,0 +1,20 @@
+newmtl floor_txt
+  illum 2
+  Kd 1 1 1
+  Ns 1
+  map_Kd grid.png
+
+newmtl lines
+  illum 2
+  Kd 0.2 0.2 0.2
+  Ns 1
+
+newmtl interior
+  illum 2
+  Kd 0.2 0.2 0.2
+  Ns 1
+
+newmtl pointlight
+  illum 2
+  Ke 100 100 100
+  Ns 1

@@ -1,0 +1,25 @@
+newmtl floor_txt
+  illum 2
+  Kd 1 1 1
+  Ns 1
+  Kr 0.4 0.4 0.4
+  map_Kd grid.png
+
+newmtl obj01
+  illum 2
+  Kd 0.96 0.96 0.96
+  Ks 0.8 0.8 0.8
+  Ns 198
+  map_Kd rcolored.png
+
+newmtl obj02
+  illum 2
+  Kd 0.96 0.96 0.96
+  Ks 0.8 0.8 0.8
+  Ns 19998
+  map_Kd colored.png
+
+newmtl pointlight
+  illum 2
+  Ke 100 100 100
+  Ns 1
