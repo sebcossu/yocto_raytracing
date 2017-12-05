@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6AB715243D4B421F84CFB648 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CA1DC99A78B74F9C8A765E51 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				62C08408FA9A40108BD60317 /* CMake Rules */,
+			);
+			dependencies = (
+				00497864E0634FBAB9608245 /* PBXTargetDependency */,
+				B73825FC62574AF2818FE380 /* PBXTargetDependency */,
+				076AF66A878F4CADB5852C2C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D041BDDDEE414CD4A3609809 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 885D4BFA2DA740D4900CB608 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FE98C9357C3E4723AB357BF7 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		126BAFB326C34D2E83D805EC /* /Users/seb/Desktop/out/src/vmath.h */ = {isa = PBXBuildFile; fileRef = 5A0FB9DD7AD7444489717D81 /* /Users/seb/Desktop/out/src/vmath.h */; };
+		29A5F26821614DDEB79F68B7 /* /Users/seb/Desktop/out/src/ext/yocto_scn.h */ = {isa = PBXBuildFile; fileRef = 31C24C81A4F04A19948C5D92 /* /Users/seb/Desktop/out/src/ext/yocto_scn.h */; };
+		40A43D6C4CF746798620DA1A /* /Users/seb/Desktop/out/src/ext/yocto_obj.cpp */ = {isa = PBXBuildFile; fileRef = 132F4FB00628460EB296697A /* /Users/seb/Desktop/out/src/ext/yocto_obj.cpp */; };
+		487637C855B94FCCB165D9FA /* /Users/seb/Desktop/out/src/ext/stb_image_write.h */ = {isa = PBXBuildFile; fileRef = 451EF9AA53794906A661401F /* /Users/seb/Desktop/out/src/ext/stb_image_write.h */; };
+		4E56ED43B68C4DA5B092B58E /* /Users/seb/Desktop/out/src/ext/yocto_gltf.cpp */ = {isa = PBXBuildFile; fileRef = DF5579BC03E44DF69E48814C /* /Users/seb/Desktop/out/src/ext/yocto_gltf.cpp */; };
+		56C89689B31B4794A752D52A /* /Users/seb/Desktop/out/src/ext/yocto_utils.h */ = {isa = PBXBuildFile; fileRef = 97BD7016BBBF4DFEA7369C86 /* /Users/seb/Desktop/out/src/ext/yocto_utils.h */; };
+		5900F7F7D070419991CF9574 /* /Users/seb/Desktop/out/src/raytrace.cpp */ = {isa = PBXBuildFile; fileRef = D28AF7176D08469BA222EB2D /* /Users/seb/Desktop/out/src/raytrace.cpp */; };
+		6432508AB8004142A9F31351 /* /Users/seb/Desktop/out/src/image.cpp */ = {isa = PBXBuildFile; fileRef = EB39C63526794FF3853CC59D /* /Users/seb/Desktop/out/src/image.cpp */; };
+		715774F459524CF2B2D479CE /* /Users/seb/Desktop/out/src/scene.h */ = {isa = PBXBuildFile; fileRef = 7AF18DB40C4B413AA03B435C /* /Users/seb/Desktop/out/src/scene.h */; };
+		755A9C7D11B444DF9FCC0482 /* /Users/seb/Desktop/out/src/image.h */ = {isa = PBXBuildFile; fileRef = 0AF076A3A5ED43A688E919DE /* /Users/seb/Desktop/out/src/image.h */; };
+		84D28C9C27C84E29AE830CA2 /* /Users/seb/Desktop/out/src/ext/yocto_scn.cpp */ = {isa = PBXBuildFile; fileRef = B2B762EB9C5647D99DC1F266 /* /Users/seb/Desktop/out/src/ext/yocto_scn.cpp */; };
+		8B0136D024DB448D91250988 /* /Users/seb/Desktop/out/src/ext/yocto_math.h */ = {isa = PBXBuildFile; fileRef = 2A17B21B6AF24433ADD4BB42 /* /Users/seb/Desktop/out/src/ext/yocto_math.h */; };
+		8F853A0026CB436E8F850DBA /* /Users/seb/Desktop/out/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8DA85B9A931D45179D1A92D8 /* /Users/seb/Desktop/out/CMakeLists.txt */; };
+		B06BD17F98A04920A1815598 /* /Users/seb/Desktop/out/src/ext/yocto_gltf.h */ = {isa = PBXBuildFile; fileRef = A938A0B83A234C11BC6D5580 /* /Users/seb/Desktop/out/src/ext/yocto_gltf.h */; };
+		B39B65089EA8445B91ABC59F /* /Users/seb/Desktop/out/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0AD5CC939A104C7AA8ECE680 /* /Users/seb/Desktop/out/CMakeLists.txt */; };
+		B67DEAC5D7E64CF0A5E20400 /* /Users/seb/Desktop/out/src/scene.cpp */ = {isa = PBXBuildFile; fileRef = D901FBDCEEB644C28E78F866 /* /Users/seb/Desktop/out/src/scene.cpp */; };
+		B79D9D41F65C468B8CCEFEA3 /* /Users/seb/Desktop/out/src/ext/stb_image.h */ = {isa = PBXBuildFile; fileRef = 2AB30C0B6B64457D9A493F16 /* /Users/seb/Desktop/out/src/ext/stb_image.h */; };
+		D690C7EBA8C740B98375313C /* /Users/seb/Desktop/out/src/ext/yocto_obj.h */ = {isa = PBXBuildFile; fileRef = 9195EDD4FC514DC9BDCB815B /* /Users/seb/Desktop/out/src/ext/yocto_obj.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		156187D442E043A898856313 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		280D54AF88904505993F8534 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		B65B16E1443E47198B0FA8BE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FC0755443A93438B80FFE67E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		5F1B0718687547B5B31BB1AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6525E161D0A54EA289CF78C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D041BDDDEE414CD4A3609809;
+			remoteInfo = ZERO_CHECK;
+		};
+		61BFF916185D4A04992F39EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6525E161D0A54EA289CF78C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D041BDDDEE414CD4A3609809;
+			remoteInfo = ZERO_CHECK;
+		};
+		88533979F7BB4AF0A81101C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6525E161D0A54EA289CF78C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6D1D5E938F94F4FB892AAB2;
+			remoteInfo = raytrace;
+		};
+		BC972897C27347FD889D14A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6525E161D0A54EA289CF78C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 748E138F423145B796AA6F16;
+			remoteInfo = hwlib;
+		};
+		D808990A065D4ED4BB496F19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6525E161D0A54EA289CF78C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 748E138F423145B796AA6F16;
+			remoteInfo = hwlib;
+		};
+		EDD53BA439CE4B5FAAD4D5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6525E161D0A54EA289CF78C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D041BDDDEE414CD4A3609809;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD5CC939A104C7AA8ECE680 /* /Users/seb/Desktop/out/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0AF076A3A5ED43A688E919DE /* /Users/seb/Desktop/out/src/image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = image.h; path = src/image.h; sourceTree = SOURCE_ROOT; };
+		132F4FB00628460EB296697A /* /Users/seb/Desktop/out/src/ext/yocto_obj.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yocto_obj.cpp; path = src/ext/yocto_obj.cpp; sourceTree = SOURCE_ROOT; };
+		2A17B21B6AF24433ADD4BB42 /* /Users/seb/Desktop/out/src/ext/yocto_math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_math.h; path = src/ext/yocto_math.h; sourceTree = SOURCE_ROOT; };
+		2AB30C0B6B64457D9A493F16 /* /Users/seb/Desktop/out/src/ext/stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = src/ext/stb_image.h; sourceTree = SOURCE_ROOT; };
+		31C24C81A4F04A19948C5D92 /* /Users/seb/Desktop/out/src/ext/yocto_scn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_scn.h; path = src/ext/yocto_scn.h; sourceTree = SOURCE_ROOT; };
+		37807D6D7BDE4013BD6F1F71 /* /Users/seb/Desktop/out/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		451EF9AA53794906A661401F /* /Users/seb/Desktop/out/src/ext/stb_image_write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_write.h; path = src/ext/stb_image_write.h; sourceTree = SOURCE_ROOT; };
+		59358F53DDEF4E90B0F1D052 /* raytrace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = raytrace; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0FB9DD7AD7444489717D81 /* /Users/seb/Desktop/out/src/vmath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vmath.h; path = src/vmath.h; sourceTree = SOURCE_ROOT; };
+		7AF18DB40C4B413AA03B435C /* /Users/seb/Desktop/out/src/scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scene.h; path = src/scene.h; sourceTree = SOURCE_ROOT; };
+		8DA85B9A931D45179D1A92D8 /* /Users/seb/Desktop/out/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9195EDD4FC514DC9BDCB815B /* /Users/seb/Desktop/out/src/ext/yocto_obj.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_obj.h; path = src/ext/yocto_obj.h; sourceTree = SOURCE_ROOT; };
+		97BD7016BBBF4DFEA7369C86 /* /Users/seb/Desktop/out/src/ext/yocto_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_utils.h; path = src/ext/yocto_utils.h; sourceTree = SOURCE_ROOT; };
+		A46DA612D9A34D7CBD37E559 /* hwlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libhwlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A938A0B83A234C11BC6D5580 /* /Users/seb/Desktop/out/src/ext/yocto_gltf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_gltf.h; path = src/ext/yocto_gltf.h; sourceTree = SOURCE_ROOT; };
+		B2B762EB9C5647D99DC1F266 /* /Users/seb/Desktop/out/src/ext/yocto_scn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yocto_scn.cpp; path = src/ext/yocto_scn.cpp; sourceTree = SOURCE_ROOT; };
+		B6EA5F8F08C84DC0AC44FC48 /* /Users/seb/Desktop/out/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D28AF7176D08469BA222EB2D /* /Users/seb/Desktop/out/src/raytrace.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = raytrace.cpp; path = src/raytrace.cpp; sourceTree = SOURCE_ROOT; };
+		D901FBDCEEB644C28E78F866 /* /Users/seb/Desktop/out/src/scene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scene.cpp; path = src/scene.cpp; sourceTree = SOURCE_ROOT; };
+		DF5579BC03E44DF69E48814C /* /Users/seb/Desktop/out/src/ext/yocto_gltf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yocto_gltf.cpp; path = src/ext/yocto_gltf.cpp; sourceTree = SOURCE_ROOT; };
+		EB39C63526794FF3853CC59D /* /Users/seb/Desktop/out/src/image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = image.cpp; path = src/image.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07CB7D0E17974506B8101BC5 /* hwlib */ = {
+			isa = PBXGroup;
+			children = (
+				BC1FA68C78C740E0B4CE5604 /* Header Files */,
+				71EB5E19F61842079F66DBDF /* Source Files */,
+				8DA85B9A931D45179D1A92D8 /* /Users/seb/Desktop/out/CMakeLists.txt */,
+			);
+			name = hwlib;
+			sourceTree = "<group>";
+		};
+		1661F607BC6C4AA2BFC8897A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B1C6AFD7DF644BBD930A836E /* CMake Rules */,
+				B6EA5F8F08C84DC0AC44FC48 /* /Users/seb/Desktop/out/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		71EB5E19F61842079F66DBDF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF5579BC03E44DF69E48814C /* /Users/seb/Desktop/out/src/ext/yocto_gltf.cpp */,
+				132F4FB00628460EB296697A /* /Users/seb/Desktop/out/src/ext/yocto_obj.cpp */,
+				B2B762EB9C5647D99DC1F266 /* /Users/seb/Desktop/out/src/ext/yocto_scn.cpp */,
+				EB39C63526794FF3853CC59D /* /Users/seb/Desktop/out/src/image.cpp */,
+				D901FBDCEEB644C28E78F866 /* /Users/seb/Desktop/out/src/scene.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		745CE8FB94A045C7AB1C0C22 /* raytrace */ = {
+			isa = PBXGroup;
+			children = (
+				D4E3E263CD4341CB9EDC5A26 /* Source Files */,
+				0AD5CC939A104C7AA8ECE680 /* /Users/seb/Desktop/out/CMakeLists.txt */,
+			);
+			name = raytrace;
+			sourceTree = "<group>";
+		};
+		8101B9F9291D4F258A840EA2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A585B919DAFF4187B139C435 = {
+			isa = PBXGroup;
+			children = (
+				745CE8FB94A045C7AB1C0C22 /* raytrace */,
+				07CB7D0E17974506B8101BC5 /* hwlib */,
+				1661F607BC6C4AA2BFC8897A /* ALL_BUILD */,
+				D48C98BA58D2450583DBF41B /* ZERO_CHECK */,
+				DB329A4E070D4D6CABA9AC37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1C6AFD7DF644BBD930A836E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BC1FA68C78C740E0B4CE5604 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB30C0B6B64457D9A493F16 /* /Users/seb/Desktop/out/src/ext/stb_image.h */,
+				451EF9AA53794906A661401F /* /Users/seb/Desktop/out/src/ext/stb_image_write.h */,
+				A938A0B83A234C11BC6D5580 /* /Users/seb/Desktop/out/src/ext/yocto_gltf.h */,
+				2A17B21B6AF24433ADD4BB42 /* /Users/seb/Desktop/out/src/ext/yocto_math.h */,
+				9195EDD4FC514DC9BDCB815B /* /Users/seb/Desktop/out/src/ext/yocto_obj.h */,
+				31C24C81A4F04A19948C5D92 /* /Users/seb/Desktop/out/src/ext/yocto_scn.h */,
+				97BD7016BBBF4DFEA7369C86 /* /Users/seb/Desktop/out/src/ext/yocto_utils.h */,
+				0AF076A3A5ED43A688E919DE /* /Users/seb/Desktop/out/src/image.h */,
+				7AF18DB40C4B413AA03B435C /* /Users/seb/Desktop/out/src/scene.h */,
+				5A0FB9DD7AD7444489717D81 /* /Users/seb/Desktop/out/src/vmath.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D48C98BA58D2450583DBF41B /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				8101B9F9291D4F258A840EA2 /* CMake Rules */,
+				37807D6D7BDE4013BD6F1F71 /* /Users/seb/Desktop/out/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		D4E3E263CD4341CB9EDC5A26 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D28AF7176D08469BA222EB2D /* /Users/seb/Desktop/out/src/raytrace.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DB329A4E070D4D6CABA9AC37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46DA612D9A34D7CBD37E559 /* hwlib */,
+				59358F53DDEF4E90B0F1D052 /* raytrace */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		748E138F423145B796AA6F16 /* hwlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07886A1760374ECA9066F0F9 /* Build configuration list for PBXNativeTarget "hwlib" */;
+			buildPhases = (
+				EDE1F519CB044B3D80A3D98C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0826C3CA5B274B7EB78FBDDC /* PBXTargetDependency */,
+			);
+			name = hwlib;
+			productName = hwlib;
+			productReference = A46DA612D9A34D7CBD37E559 /* hwlib */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D6D1D5E938F94F4FB892AAB2 /* raytrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E297718DEAC47E5BB7E8A59 /* Build configuration list for PBXNativeTarget "raytrace" */;
+			buildPhases = (
+				84F859FD999D4D2FBDF269E8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7D3309BC4F4468A983DA4E /* PBXTargetDependency */,
+				AA7F3B98977A4395B9464A4D /* PBXTargetDependency */,
+			);
+			name = raytrace;
+			productName = raytrace;
+			productReference = 59358F53DDEF4E90B0F1D052 /* raytrace */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6525E161D0A54EA289CF78C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0810;
+			};
+			buildConfigurationList = B6FB0DA403AE4C6D939081E3 /* Build configuration list for PBXProject "graphics17a_hw02" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B65B16E1443E47198B0FA8BE /* Debug */,
+				FC0755443A93438B80FFE67E /* Release */,
+				280D54AF88904505993F8534 /* MinSizeRel */,
+				156187D442E043A898856313 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A585B919DAFF4187B139C435;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				6AB715243D4B421F84CFB648 /* ALL_BUILD */,
+				D041BDDDEE414CD4A3609809 /* ZERO_CHECK */,
+				748E138F423145B796AA6F16 /* hwlib */,
+				D6D1D5E938F94F4FB892AAB2 /* raytrace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5650EFDB879A49DB9C7552E1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		62C08408FA9A40108BD60317 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seb/Desktop/out/xcode -f /Users/seb/Desktop/out/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		CAF5485532B94EF0A7FCE608 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FE98C9357C3E4723AB357BF7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seb/Desktop/out/xcode -f /Users/seb/Desktop/out/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F859FD999D4D2FBDF269E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5900F7F7D070419991CF9574 /* /Users/seb/Desktop/out/src/raytrace.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE1F519CB044B3D80A3D98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E56ED43B68C4DA5B092B58E /* /Users/seb/Desktop/out/src/ext/yocto_gltf.cpp */,
+				40A43D6C4CF746798620DA1A /* /Users/seb/Desktop/out/src/ext/yocto_obj.cpp */,
+				84D28C9C27C84E29AE830CA2 /* /Users/seb/Desktop/out/src/ext/yocto_scn.cpp */,
+				6432508AB8004142A9F31351 /* /Users/seb/Desktop/out/src/image.cpp */,
+				B67DEAC5D7E64CF0A5E20400 /* /Users/seb/Desktop/out/src/scene.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00497864E0634FBAB9608245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 748E138F423145B796AA6F16 /* hwlib */;
+			targetProxy = D808990A065D4ED4BB496F19 /* PBXContainerItemProxy */;
+		};
+		076AF66A878F4CADB5852C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D041BDDDEE414CD4A3609809 /* ZERO_CHECK */;
+			targetProxy = 61BFF916185D4A04992F39EB /* PBXContainerItemProxy */;
+		};
+		0826C3CA5B274B7EB78FBDDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D041BDDDEE414CD4A3609809 /* ZERO_CHECK */;
+			targetProxy = 5F1B0718687547B5B31BB1AA /* PBXContainerItemProxy */;
+		};
+		AA7F3B98977A4395B9464A4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D041BDDDEE414CD4A3609809 /* ZERO_CHECK */;
+			targetProxy = EDD53BA439CE4B5FAAD4D5F8 /* PBXContainerItemProxy */;
+		};
+		B73825FC62574AF2818FE380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6D1D5E938F94F4FB892AAB2 /* raytrace */;
+			targetProxy = 88533979F7BB4AF0A81101C5 /* PBXContainerItemProxy */;
+		};
+		EE7D3309BC4F4468A983DA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 748E138F423145B796AA6F16 /* hwlib */;
+			targetProxy = BC972897C27347FD889D14A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0493E16A8ECD4D9FA6D11CAF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		094DDC87B19F46B8BCFAC98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		113E81E257234DC892D3ECB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		12FD145E9EA5442EBF7A192F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/seb/Desktop/out/xcode/build;
+			};
+			name = Release;
+		};
+		31FF10BD5C5E4ABA8FAA5EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		39B39ADB92E84B2F9126FE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/seb/Desktop/out/bin/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",YOBJ_NO_IMAGE,YGLTF_NO_IMAGE,YSCN_NO_IMAGE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'   -Wno-missing-braces";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hwlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3CF8488157034D209E5EEBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/seb/Desktop/out/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",YOBJ_NO_IMAGE,YGLTF_NO_IMAGE,YSCN_NO_IMAGE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'   -Wno-missing-braces";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/seb/Desktop/out/bin/Debug/libhwlib.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raytrace;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		77E50FCA27484FA4A2F68968 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/seb/Desktop/out/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",YOBJ_NO_IMAGE,YGLTF_NO_IMAGE,YSCN_NO_IMAGE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'   -Wno-missing-braces";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hwlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7E89FD95C11F4501845E7821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/seb/Desktop/out/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",YOBJ_NO_IMAGE,YGLTF_NO_IMAGE,YSCN_NO_IMAGE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'   -Wno-missing-braces";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/seb/Desktop/out/bin/Release/libhwlib.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raytrace;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		89323216BB494485AB548C64 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/seb/Desktop/out/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",YOBJ_NO_IMAGE,YGLTF_NO_IMAGE,YSCN_NO_IMAGE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'   -Wno-missing-braces";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/seb/Desktop/out/bin/RelWithDebInfo/libhwlib.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raytrace;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		89F48C59AD074B3A819236DB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9B8B1E80D20045D5932C8779 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A9DE9D1925154BCC8B633E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B33A74DEF8074BEA9F50096F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B74555E40C034B4CADEC79BD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/seb/Desktop/out/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		B8A22DBC368743BEBC31BEBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/seb/Desktop/out/xcode/build;
+			};
+			name = Debug;
+		};
+		D9A8E273DD944285914CF43B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/seb/Desktop/out/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",YOBJ_NO_IMAGE,YGLTF_NO_IMAGE,YSCN_NO_IMAGE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'   -Wno-missing-braces";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/seb/Desktop/out/bin/MinSizeRel/libhwlib.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = raytrace;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E28B6DB56E314A00BC2E0007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/seb/Desktop/out/bin/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",YOBJ_NO_IMAGE,YGLTF_NO_IMAGE,YSCN_NO_IMAGE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'   -Wno-missing-braces";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hwlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E469C6C0BB534599B571489A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/seb/Desktop/out/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",YOBJ_NO_IMAGE,YGLTF_NO_IMAGE,YSCN_NO_IMAGE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'   -Wno-missing-braces";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hwlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/seb/Desktop/out/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E4B99584CED0414EB00976FC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/seb/Desktop/out/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07886A1760374ECA9066F0F9 /* Build configuration list for PBXNativeTarget "hwlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28B6DB56E314A00BC2E0007 /* Debug */,
+				39B39ADB92E84B2F9126FE13 /* Release */,
+				E469C6C0BB534599B571489A /* MinSizeRel */,
+				77E50FCA27484FA4A2F68968 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E297718DEAC47E5BB7E8A59 /* Build configuration list for PBXNativeTarget "raytrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF8488157034D209E5EEBB9 /* Debug */,
+				7E89FD95C11F4501845E7821 /* Release */,
+				D9A8E273DD944285914CF43B /* MinSizeRel */,
+				89323216BB494485AB548C64 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		885D4BFA2DA740D4900CB608 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FF10BD5C5E4ABA8FAA5EAA /* Debug */,
+				113E81E257234DC892D3ECB2 /* Release */,
+				89F48C59AD074B3A819236DB /* MinSizeRel */,
+				9B8B1E80D20045D5932C8779 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6FB0DA403AE4C6D939081E3 /* Build configuration list for PBXProject "graphics17a_hw02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A22DBC368743BEBC31BEBA /* Debug */,
+				12FD145E9EA5442EBF7A192F /* Release */,
+				B74555E40C034B4CADEC79BD /* MinSizeRel */,
+				E4B99584CED0414EB00976FC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CA1DC99A78B74F9C8A765E51 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DE9D1925154BCC8B633E94 /* Debug */,
+				094DDC87B19F46B8BCFAC98E /* Release */,
+				0493E16A8ECD4D9FA6D11CAF /* MinSizeRel */,
+				B33A74DEF8074BEA9F50096F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6525E161D0A54EA289CF78C2 /* Project object */;
+}

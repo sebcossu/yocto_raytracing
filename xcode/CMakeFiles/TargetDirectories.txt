@@ -1,0 +1,4 @@
+/Users/seb/Desktop/out/xcode/CMakeFiles/raytrace.dir
+/Users/seb/Desktop/out/xcode/CMakeFiles/hwlib.dir
+/Users/seb/Desktop/out/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/seb/Desktop/out/xcode/CMakeFiles/ZERO_CHECK.dir
