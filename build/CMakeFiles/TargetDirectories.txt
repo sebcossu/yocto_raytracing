@@ -1,0 +1,4 @@
+/Users/seb/Desktop/out/build/CMakeFiles/rebuild_cache.dir
+/Users/seb/Desktop/out/build/CMakeFiles/edit_cache.dir
+/Users/seb/Desktop/out/build/CMakeFiles/raytrace.dir
+/Users/seb/Desktop/out/build/CMakeFiles/hwlib.dir

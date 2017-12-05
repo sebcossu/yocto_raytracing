@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../bin/libhwlib.a  CMakeFiles/hwlib.dir/src/image.cpp.o CMakeFiles/hwlib.dir/src/scene.cpp.o CMakeFiles/hwlib.dir/src/ext/yocto_scn.cpp.o CMakeFiles/hwlib.dir/src/ext/yocto_obj.cpp.o CMakeFiles/hwlib.dir/src/ext/yocto_gltf.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../bin/libhwlib.a
